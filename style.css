@@ -2,6 +2,9 @@ body, html {
     height: 100%;
     
   }
+  .lorem{
+    height:300px;background-color:rgb(233, 146, 146);font-size:30px; padding: 5%; font-family: Bradley Hand ITC;font-weight: bold;
+  }
 .parallax{
 
   /* The image used */  
@@ -24,6 +27,43 @@ body, html {
     letter-spacing: 5px;
     font-family: Algerian;
     text-shadow: 5px 5px 10px black;
+}
+
+@media (max-width:1029px){
+   .lorem{
+     font-size: 25px;
+   }
+   body, html {
+    height: 70%;
+    
+  }
+  .Parallax-inner{
+    padding-top: 10%;
+ }
+}
+@media (max-width:812px){
+  .lorem{
+    font-size: 14px;
+    
+  }
+  body, html {
+    height: 70%;
+    
+  }
+  .Parallax-inner h1{
+    font-size: 40px;
+  }
+  .Parallax-inner{
+   padding-top: 30%;
+}
+}
+@media (max-width:653px){
+  .lorem{
+    font-size: 12px;
+  }
+  .Parallax-inner h1{
+    font-size: 30px;
+  }
 }
 
 
