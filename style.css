@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    
+  }
+.parallax{
+
+  /* The image used */  
+  background-image: url(imges/lpn.jpg);
+  /* Full height */
+  height: 100%;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+.Parallax-inner{
+    padding-top: 20%;
+    text-align: center;
+}
+.Parallax-inner h1{
+    color: rgb(228, 225, 40);
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: Algerian;
+    text-shadow: 5px 5px 10px black;
+}
+
+
